@@ -24,7 +24,7 @@
                 }
             }],
             "_links": {
-                "self": "https:\/\/www.ballsystem.it\/wp-json\/gusto"
+                "self": "https:\/\/reedcreative.cc\/wp-json\/gusto"
             }
         },
         "\/gusto\/nav\/(?P<slug>\\S+)": {
@@ -57,7 +57,7 @@
                 }
             }],
             "_links": {
-                "self": "https:\/\/www.ballsystem.it\/wp-json\/gusto\/routing-rules"
+                "self": "https:\/\/reedcreative.cc\/wp-json\/gusto\/routing-rules"
             }
         },
         "\/gusto\/strings": {
@@ -75,7 +75,7 @@
                 }
             }],
             "_links": {
-                "self": "https:\/\/www.ballsystem.it\/wp-json\/gusto\/strings"
+                "self": "https:\/\/reedcreative.cc\/wp-json\/gusto\/strings"
             }
         },
         "\/gusto\/form\/(?P<id>\\S+)": {
@@ -96,7 +96,7 @@
     },
     "_links": {
         "up": [{
-            "href": "https:\/\/www.ballsystem.it\/wp-json\/"
+            "href": "https:\/\/reedcreative.cc\/wp-json\/"
         }]
     }
 }

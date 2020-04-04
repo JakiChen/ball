@@ -7,3 +7,6 @@ wp-content/.DS_Store
 wp-content/themes/.DS_Store
 wp-content/themes/ballsystem/.DS_Store
 .DS_Store
+.DS_Store
+wp-json/gusto.json
+wp-json/wp/v2.json
