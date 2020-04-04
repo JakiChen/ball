@@ -1,0 +1,129 @@
+{
+    "namespace": "contact-form-7\/v1",
+    "routes": {
+        "\/contact-form-7\/v1": {
+            "namespace": "contact-form-7\/v1",
+            "methods": ["GET"],
+            "endpoints": [{
+                "methods": ["GET"],
+                "args": {
+                    "namespace": {
+                        "required": false,
+                        "default": "contact-form-7\/v1"
+                    },
+                    "context": {
+                        "required": false,
+                        "default": "view"
+                    },
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }],
+            "_links": {
+                "self": "https:\/\/www.ballsystem.it\/wp-json\/contact-form-7\/v1"
+            }
+        },
+        "\/contact-form-7\/v1\/contact-forms": {
+            "namespace": "contact-form-7\/v1",
+            "methods": ["GET", "POST"],
+            "endpoints": [{
+                "methods": ["GET"],
+                "args": {
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }, {
+                "methods": ["POST"],
+                "args": {
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }],
+            "_links": {
+                "self": "https:\/\/www.ballsystem.it\/wp-json\/contact-form-7\/v1\/contact-forms"
+            }
+        },
+        "\/contact-form-7\/v1\/contact-forms\/(?P<id>\\d+)": {
+            "namespace": "contact-form-7\/v1",
+            "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+            "endpoints": [{
+                "methods": ["GET"],
+                "args": {
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }, {
+                "methods": ["POST", "PUT", "PATCH"],
+                "args": {
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }, {
+                "methods": ["DELETE"],
+                "args": {
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }]
+        },
+        "\/contact-form-7\/v1\/contact-forms\/(?P<id>\\d+)\/feedback": {
+            "namespace": "contact-form-7\/v1",
+            "methods": ["POST"],
+            "endpoints": [{
+                "methods": ["POST"],
+                "args": {
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }]
+        },
+        "\/contact-form-7\/v1\/contact-forms\/(?P<id>\\d+)\/refill": {
+            "namespace": "contact-form-7\/v1",
+            "methods": ["GET"],
+            "endpoints": [{
+                "methods": ["GET"],
+                "args": {
+                    "wpml_language": {
+                        "required": false,
+                        "enum": ["en", "it"],
+                        "description": "WPML's language code",
+                        "type": "string"
+                    }
+                }
+            }]
+        }
+    },
+    "_links": {
+        "up": [{
+            "href": "https:\/\/www.ballsystem.it\/wp-json\/"
+        }]
+    }
+}
